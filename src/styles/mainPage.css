@@ -1,0 +1,31 @@
+.main-page__container {
+    width: 1200px;
+    margin: 0 50px;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    grid-gap: 30px;
+}
+
+.game__container {
+    display: grid;
+    grid-template-columns: 500px 150px 500px;
+}
+
+.card__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__controller {
+    display: flex;
+}
+.sb {
+    justify-content: space-between;
+    align-items: center;
+}
+.c {
+    justify-content: center;
+    align-items: center;
+}

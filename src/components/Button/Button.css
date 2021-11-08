@@ -1,0 +1,28 @@
+.button {
+  height: 36px;
+
+  cursor: pointer;
+
+  padding: 0 16px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  background-color: #0071c2;
+
+  color: white;
+  font-weight: 500;
+
+  box-shadow: 4px 4px 5px 0 rgba(39, 39, 39, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.button:hover {
+  background-color: #005693;
+  box-shadow: 4px 4px 5px 0 rgba(39, 39, 39, 0.2);
+}
+
+.block {
+  width: 100%;
+}
